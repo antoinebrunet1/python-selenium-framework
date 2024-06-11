@@ -9,7 +9,7 @@ def navigate_to_upload_and_download_page(driver):
 
 
 def upload_file(driver):
-    absolute_path = "C:\\Users\\Utilisateur\\PycharmProjects\\python_selenium_framework\\fileForUpload.txt"
+    absolute_path = "/fileForUpload.txt"
     name_of_xpath = "uploadButton"
 
     driverutil.upload_file(driver, NAME_OF_FILE, name_of_xpath, absolute_path)

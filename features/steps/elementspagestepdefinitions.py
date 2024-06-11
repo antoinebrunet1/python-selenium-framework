@@ -1,11 +1,6 @@
 from behave import given, when, then
 
-from pages.toolsQa.elements import textboxpage
-from pages.toolsQa.elements import checkboxpage
-from pages.toolsQa.elements import radiobuttonpage
-from pages.toolsQa.elements import tablepage
-from pages.toolsQa.elements import buttonspage
-from pages.toolsQa.elements import uploadanddownloadpage
+from pages import uploadanddownloadpage, checkboxpage, buttonspage, tablepage, radiobuttonpage, textboxpage
 
 
 @given(u'I navigate to the text-box page')
